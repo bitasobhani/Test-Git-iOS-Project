@@ -15,6 +15,7 @@
 		88D4BCC01FC2E73F0034FA7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4BCBF1FC2E73F0034FA7D /* main.m */; };
 		88D4BCCA1FC2E73F0034FA7D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4BCC91FC2E73F0034FA7D /* Git_TestTests.m */; };
 		88D4BCD51FC2E73F0034FA7D /* Git_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4BCD41FC2E73F0034FA7D /* Git_TestUITests.m */; };
+		88D4BCE41FC2EDC20034FA7D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D4BCE31FC2EDC20034FA7D /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		88D4BCD01FC2E73F0034FA7D /* Git TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D4BCD41FC2E73F0034FA7D /* Git_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestUITests.m; sourceTree = "<group>"; };
 		88D4BCD61FC2E73F0034FA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D4BCE21FC2EDC20034FA7D /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		88D4BCE31FC2EDC20034FA7D /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				88D4BCBB1FC2E73F0034FA7D /* LaunchScreen.storyboard */,
 				88D4BCBE1FC2E73F0034FA7D /* Info.plist */,
 				88D4BCBF1FC2E73F0034FA7D /* main.m */,
+				88D4BCE21FC2EDC20034FA7D /* Test.h */,
+				88D4BCE31FC2EDC20034FA7D /* Test.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88D4BCB51FC2E73F0034FA7D /* ViewController.m in Sources */,
+				88D4BCE41FC2EDC20034FA7D /* Test.m in Sources */,
 				88D4BCC01FC2E73F0034FA7D /* main.m in Sources */,
 				88D4BCB21FC2E73F0034FA7D /* AppDelegate.m in Sources */,
 			);
